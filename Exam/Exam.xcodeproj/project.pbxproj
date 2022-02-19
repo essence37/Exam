@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F485F4AD27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
+		F485F4AE27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
+		F485F4B027AFEE6C00F1E891 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AF27AFEE6C00F1E891 /* Question.swift */; };
+		F485F4B127AFEE6C00F1E891 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AF27AFEE6C00F1E891 /* Question.swift */; };
 		F49DEDC027AC4F5C00D410E4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DEDBF27AC4F5C00D410E4 /* Tests_iOS.swift */; };
 		F49DEDC227AC4F5C00D410E4 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DEDC127AC4F5C00D410E4 /* Tests_iOSLaunchTests.swift */; };
 		F49DEDCC27AC4F5C00D410E4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DEDCB27AC4F5C00D410E4 /* Tests_macOS.swift */; };
@@ -21,6 +25,8 @@
 		F49DEDD627AC4F5C00D410E4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DEDA827AC4F5A00D410E4 /* Persistence.swift */; };
 		F49DEDD727AC4F5C00D410E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49DEDA927AC4F5C00D410E4 /* Assets.xcassets */; };
 		F49DEDD827AC4F5C00D410E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49DEDA927AC4F5C00D410E4 /* Assets.xcassets */; };
+		F4EB142427AEF3A0005F04F4 /* ExamPapers.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EB142327AEF3A0005F04F4 /* ExamPapers.plist */; };
+		F4EB142527AEF3A0005F04F4 /* ExamPapers.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EB142327AEF3A0005F04F4 /* ExamPapers.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F485F4AC27AFC26100F1E891 /* ExamPapers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPapers.swift; sourceTree = "<group>"; };
+		F485F4AF27AFEE6C00F1E891 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		F49DEDA527AC4F5A00D410E4 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		F49DEDA627AC4F5A00D410E4 /* ExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamApp.swift; sourceTree = "<group>"; };
 		F49DEDA727AC4F5A00D410E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +63,7 @@
 		F49DEDC727AC4F5C00D410E4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49DEDCB27AC4F5C00D410E4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F49DEDCD27AC4F5C00D410E4 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		F4EB142327AEF3A0005F04F4 /* ExamPapers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExamPapers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F485F4B227AFF07700F1E891 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F485F4AC27AFC26100F1E891 /* ExamPapers.swift */,
+				F485F4AF27AFEE6C00F1E891 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F49DED9E27AC4F5A00D410E4 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +125,8 @@
 				F49DEDA727AC4F5A00D410E4 /* ContentView.swift */,
 				F49DEDA827AC4F5A00D410E4 /* Persistence.swift */,
 				F49DEDA927AC4F5C00D410E4 /* Assets.xcassets */,
+				F485F4B227AFF07700F1E891 /* Model */,
+				F4EB142327AEF3A0005F04F4 /* ExamPapers.plist */,
 				F49DEDA427AC4F5A00D410E4 /* Exam.xcdatamodeld */,
 			);
 			path = Shared;
@@ -274,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EB142427AEF3A0005F04F4 /* ExamPapers.plist in Resources */,
 				F49DEDD727AC4F5C00D410E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EB142527AEF3A0005F04F4 /* ExamPapers.plist in Resources */,
 				F49DEDD827AC4F5C00D410E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +330,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F49DEDD127AC4F5C00D410E4 /* ExamApp.swift in Sources */,
+				F485F4B027AFEE6C00F1E891 /* Question.swift in Sources */,
+				F485F4AD27AFC26100F1E891 /* ExamPapers.swift in Sources */,
 				F49DEDD527AC4F5C00D410E4 /* Persistence.swift in Sources */,
 				F49DEDCF27AC4F5C00D410E4 /* Exam.xcdatamodeld in Sources */,
 				F49DEDD327AC4F5C00D410E4 /* ContentView.swift in Sources */,
@@ -319,6 +343,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F49DEDD227AC4F5C00D410E4 /* ExamApp.swift in Sources */,
+				F485F4B127AFEE6C00F1E891 /* Question.swift in Sources */,
+				F485F4AE27AFC26100F1E891 /* ExamPapers.swift in Sources */,
 				F49DEDD627AC4F5C00D410E4 /* Persistence.swift in Sources */,
 				F49DEDD027AC4F5C00D410E4 /* Exam.xcdatamodeld in Sources */,
 				F49DEDD427AC4F5C00D410E4 /* ContentView.swift in Sources */,
