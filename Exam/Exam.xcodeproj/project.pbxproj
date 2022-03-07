@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F418959627CFC878006147CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418959527CFC878006147CB /* MenuView.swift */; };
+		F418959727CFC878006147CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418959527CFC878006147CB /* MenuView.swift */; };
 		F485F4AD27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
 		F485F4AE27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
 		F485F4B027AFEE6C00F1E891 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AF27AFEE6C00F1E891 /* Question.swift */; };
@@ -47,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F418959527CFC878006147CB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		F485F4AC27AFC26100F1E891 /* ExamPapers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPapers.swift; sourceTree = "<group>"; };
 		F485F4AF27AFEE6C00F1E891 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		F49DEDA527AC4F5A00D410E4 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
@@ -98,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F418959427CFC802006147CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F418959527CFC878006147CB /* MenuView.swift */,
+				F49DEDA727AC4F5A00D410E4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F485F4B227AFF07700F1E891 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				F49DEDA627AC4F5A00D410E4 /* ExamApp.swift */,
-				F49DEDA727AC4F5A00D410E4 /* ContentView.swift */,
+				F418959427CFC802006147CB /* Views */,
 				F49DEDA827AC4F5A00D410E4 /* Persistence.swift */,
 				F49DEDA927AC4F5C00D410E4 /* Assets.xcassets */,
 				F485F4B227AFF07700F1E891 /* Model */,
@@ -329,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F418959627CFC878006147CB /* MenuView.swift in Sources */,
 				F49DEDD127AC4F5C00D410E4 /* ExamApp.swift in Sources */,
 				F485F4B027AFEE6C00F1E891 /* Question.swift in Sources */,
 				F485F4AD27AFC26100F1E891 /* ExamPapers.swift in Sources */,
@@ -342,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F418959727CFC878006147CB /* MenuView.swift in Sources */,
 				F49DEDD227AC4F5C00D410E4 /* ExamApp.swift in Sources */,
 				F485F4B127AFEE6C00F1E891 /* Question.swift in Sources */,
 				F485F4AE27AFC26100F1E891 /* ExamPapers.swift in Sources */,

@@ -5,8 +5,19 @@
 //  Created by Пазин Даниил on 02.03.2022.
 //
 
-import UIKit
+import SwiftUI
 
-class MenuView: View {
+struct MenuView: View {
+    var body: some View {
+        TabView {
 
+        }
+    }
 }
+
+struct MenuView_Previews: PreviewProvider {
+    static var previews: some View {
+        MenuView()
+    }
+}
+
