@@ -13,7 +13,7 @@ struct ExamApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MenuView()
+            PedalSlider<Float>()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
