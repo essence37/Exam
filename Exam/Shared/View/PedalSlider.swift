@@ -59,6 +59,6 @@ struct PedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : BinaryFloa
 
 struct PedalSlider_Previews: PreviewProvider {
     static var previews: some View {
-        PedalSlider(in: 0...100)
+        PedalSlider(in: 0...1)
     }
 }
