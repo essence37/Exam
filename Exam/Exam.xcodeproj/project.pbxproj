@@ -13,11 +13,15 @@
 		F40455F62804831D00D42F98 /* GearPositionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40455F42804831D00D42F98 /* GearPositionsView.swift */; };
 		F418959627CFC878006147CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418959527CFC878006147CB /* MenuView.swift */; };
 		F418959727CFC878006147CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418959527CFC878006147CB /* MenuView.swift */; };
+		F42EF257281F167F00032E6F /* GasPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EF256281F167F00032E6F /* GasPedalSlider.swift */; };
+		F42EF258281F167F00032E6F /* GasPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EF256281F167F00032E6F /* GasPedalSlider.swift */; };
 		F47E695927F8C71E001921FF /* ForceDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6B18327DDDC6400352A07 /* ForceDragView.swift */; };
 		F485F4AD27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
 		F485F4AE27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
 		F485F4B027AFEE6C00F1E891 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AF27AFEE6C00F1E891 /* Question.swift */; };
 		F485F4B127AFEE6C00F1E891 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AF27AFEE6C00F1E891 /* Question.swift */; };
+		F48A32D528107F4A00764CEC /* GearPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48A32D428107F4A00764CEC /* GearPositionView.swift */; };
+		F48A32D628107F4A00764CEC /* GearPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48A32D428107F4A00764CEC /* GearPositionView.swift */; };
 		F49DEDC027AC4F5C00D410E4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DEDBF27AC4F5C00D410E4 /* Tests_iOS.swift */; };
 		F49DEDC227AC4F5C00D410E4 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DEDC127AC4F5C00D410E4 /* Tests_iOSLaunchTests.swift */; };
 		F49DEDCC27AC4F5C00D410E4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DEDCB27AC4F5C00D410E4 /* Tests_macOS.swift */; };
@@ -33,8 +37,8 @@
 		F49DEDD727AC4F5C00D410E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49DEDA927AC4F5C00D410E4 /* Assets.xcassets */; };
 		F49DEDD827AC4F5C00D410E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49DEDA927AC4F5C00D410E4 /* Assets.xcassets */; };
 		F4B6B18427DDDC6400352A07 /* ForceDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6B18327DDDC6400352A07 /* ForceDragView.swift */; };
-		F4E651C427D6151D00EFDE93 /* PedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E651C327D6151D00EFDE93 /* PedalSlider.swift */; };
-		F4E651C527D6151D00EFDE93 /* PedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E651C327D6151D00EFDE93 /* PedalSlider.swift */; };
+		F4E651C427D6151D00EFDE93 /* BreakPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E651C327D6151D00EFDE93 /* BreakPedalSlider.swift */; };
+		F4E651C527D6151D00EFDE93 /* BreakPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E651C327D6151D00EFDE93 /* BreakPedalSlider.swift */; };
 		F4EB142427AEF3A0005F04F4 /* ExamPapers.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EB142327AEF3A0005F04F4 /* ExamPapers.plist */; };
 		F4EB142527AEF3A0005F04F4 /* ExamPapers.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EB142327AEF3A0005F04F4 /* ExamPapers.plist */; };
 /* End PBXBuildFile section */
@@ -60,8 +64,10 @@
 		F40455F12804812400D42F98 /* GearPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearPosition.swift; sourceTree = "<group>"; };
 		F40455F42804831D00D42F98 /* GearPositionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearPositionsView.swift; sourceTree = "<group>"; };
 		F418959527CFC878006147CB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F42EF256281F167F00032E6F /* GasPedalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPedalSlider.swift; sourceTree = "<group>"; };
 		F485F4AC27AFC26100F1E891 /* ExamPapers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPapers.swift; sourceTree = "<group>"; };
 		F485F4AF27AFEE6C00F1E891 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		F48A32D428107F4A00764CEC /* GearPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearPositionView.swift; sourceTree = "<group>"; };
 		F49DEDA527AC4F5A00D410E4 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		F49DEDA627AC4F5A00D410E4 /* ExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamApp.swift; sourceTree = "<group>"; };
 		F49DEDA727AC4F5A00D410E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,7 +83,7 @@
 		F49DEDCB27AC4F5C00D410E4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F49DEDCD27AC4F5C00D410E4 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		F4B6B18327DDDC6400352A07 /* ForceDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceDragView.swift; sourceTree = "<group>"; };
-		F4E651C327D6151D00EFDE93 /* PedalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalSlider.swift; sourceTree = "<group>"; };
+		F4E651C327D6151D00EFDE93 /* BreakPedalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPedalSlider.swift; sourceTree = "<group>"; };
 		F4EB142327AEF3A0005F04F4 /* ExamPapers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExamPapers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,9 +124,11 @@
 			children = (
 				F418959527CFC878006147CB /* MenuView.swift */,
 				F49DEDA727AC4F5A00D410E4 /* ContentView.swift */,
-				F4E651C327D6151D00EFDE93 /* PedalSlider.swift */,
 				F4B6B18327DDDC6400352A07 /* ForceDragView.swift */,
+				F42EF256281F167F00032E6F /* GasPedalSlider.swift */,
+				F4E651C327D6151D00EFDE93 /* BreakPedalSlider.swift */,
 				F40455F42804831D00D42F98 /* GearPositionsView.swift */,
+				F48A32D428107F4A00764CEC /* GearPositionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -369,11 +377,13 @@
 				F49DEDD127AC4F5C00D410E4 /* ExamApp.swift in Sources */,
 				F485F4B027AFEE6C00F1E891 /* Question.swift in Sources */,
 				F485F4AD27AFC26100F1E891 /* ExamPapers.swift in Sources */,
+				F48A32D528107F4A00764CEC /* GearPositionView.swift in Sources */,
 				F40455F52804831D00D42F98 /* GearPositionsView.swift in Sources */,
 				F49DEDD527AC4F5C00D410E4 /* Persistence.swift in Sources */,
 				F40455F22804812400D42F98 /* GearPosition.swift in Sources */,
-				F4E651C427D6151D00EFDE93 /* PedalSlider.swift in Sources */,
+				F4E651C427D6151D00EFDE93 /* BreakPedalSlider.swift in Sources */,
 				F49DEDCF27AC4F5C00D410E4 /* Exam.xcdatamodeld in Sources */,
+				F42EF257281F167F00032E6F /* GasPedalSlider.swift in Sources */,
 				F4B6B18427DDDC6400352A07 /* ForceDragView.swift in Sources */,
 				F49DEDD327AC4F5C00D410E4 /* ContentView.swift in Sources */,
 			);
@@ -387,11 +397,13 @@
 				F49DEDD227AC4F5C00D410E4 /* ExamApp.swift in Sources */,
 				F485F4B127AFEE6C00F1E891 /* Question.swift in Sources */,
 				F485F4AE27AFC26100F1E891 /* ExamPapers.swift in Sources */,
+				F48A32D628107F4A00764CEC /* GearPositionView.swift in Sources */,
 				F40455F62804831D00D42F98 /* GearPositionsView.swift in Sources */,
 				F49DEDD627AC4F5C00D410E4 /* Persistence.swift in Sources */,
 				F40455F32804812400D42F98 /* GearPosition.swift in Sources */,
-				F4E651C527D6151D00EFDE93 /* PedalSlider.swift in Sources */,
+				F4E651C527D6151D00EFDE93 /* BreakPedalSlider.swift in Sources */,
 				F49DEDD027AC4F5C00D410E4 /* Exam.xcdatamodeld in Sources */,
+				F42EF258281F167F00032E6F /* GasPedalSlider.swift in Sources */,
 				F47E695927F8C71E001921FF /* ForceDragView.swift in Sources */,
 				F49DEDD427AC4F5C00D410E4 /* ContentView.swift in Sources */,
 			);
