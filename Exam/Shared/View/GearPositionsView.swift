@@ -8,15 +8,27 @@
 import SwiftUI
 
 struct GearPositionsView: View {
-    var body: some View {
-        VStack {
 
+    let radius: CGFloat
+
+    var body: some View {
+        ZStack {
+            ForEach(GearPosition.allCases, id: \.rawValue) { gearPosition in
+                drawGearPosition(gearPosition: gearPosition)
+            }
         }
+    }
+
+    private func drawGearPosition(gearPosition: GearPosition) -> some View {
+        let angle: CGFloat = .pi / 4 * CGFloat(gearPosition.rawValue) - .pi
+        let offset = CGSize(width: cos(angle) * radius, height: sin(angle) * radius)
+        return GearPositionView(gearPosition: gearPosition)
+            .offset(offset)
     }
 }
 
 struct GearPositionsView_Previews: PreviewProvider {
     static var previews: some View {
-        GearPositionsView()
+        GearPositionsView(radius: 150)
     }
 }

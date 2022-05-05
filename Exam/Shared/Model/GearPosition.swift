@@ -6,10 +6,25 @@
 //
 
 import Foundation
+import CoreData
+import Accessibility
 
-enum GearPosition {
+enum GearPosition: Int, CaseIterable, CustomStringConvertible {
     case park
     case reverse
     case neutral
     case drive
+
+    var description: String {
+        switch self {
+        case .park:
+            return "P"
+        case .reverse:
+            return "R"
+        case .neutral:
+            return "N"
+        case .drive:
+            return "D"
+        }
+    }
 }

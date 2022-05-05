@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : BinaryFloatingPoint {
+struct BreakPedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : BinaryFloatingPoint {
 
     @State private var yOffset: CGFloat = .zero
     private let speedMultiplier: Double = 2
@@ -19,9 +19,12 @@ struct PedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : BinaryFloa
 
     var body: some View {
         ZStack(alignment: .bottom) {
-            Capsule()
-                .fill(Color.blue)
+            ZStack(alignment: .top) {
+                Capsule()
+                    .fill(Color.blue)
                 .frame(width: 100, height: 400)
+                GearPositionsView(radius: 150)
+            }
             Capsule()
                 .fill(Color.green)
                 .frame(width: 100, height: -yOffset + 100)
@@ -59,6 +62,6 @@ struct PedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : BinaryFloa
 
 struct PedalSlider_Previews: PreviewProvider {
     static var previews: some View {
-        PedalSlider(in: 0...1)
+        BreakPedalSlider(in: 0...1)
     }
 }
