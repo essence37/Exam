@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GearPositionsView: View {
-
+    @Binding var isGearSelectionAvailable: Bool
     let radius: CGFloat
 
     var body: some View {
@@ -22,13 +22,15 @@ struct GearPositionsView: View {
     private func drawGearPosition(gearPosition: GearPosition) -> some View {
         let angle: CGFloat = .pi / 4 * CGFloat(gearPosition.rawValue) - .pi
         let offset = CGSize(width: cos(angle) * radius, height: sin(angle) * radius)
-        return GearPositionView(gearPosition: gearPosition)
+        return GearPositionView(gearPosition: gearPosition, isGearSelectionAvailable: $isGearSelectionAvailable)
             .offset(offset)
+            .scaleEffect(isGearSelectionAvailable ? 1 : 0.01)
     }
 }
 
 struct GearPositionsView_Previews: PreviewProvider {
+    @State static var isGearSelectionAvailable = true
     static var previews: some View {
-        GearPositionsView(radius: 150)
+        GearPositionsView(isGearSelectionAvailable: $isGearSelectionAvailable, radius: 150)
     }
 }

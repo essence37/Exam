@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ForceDragView: UIViewRepresentable {
-
     private var onBegan: ((UITouch) -> Void)?
     private var onChanged: ((UITouch) -> Void)?
     private var onEnded: ((UITouch) -> Void)?
@@ -40,7 +39,6 @@ struct ForceDragView: UIViewRepresentable {
     // MARK: -  Managed UIView Object
 
     class ForceDragUIView: UIView {
-
         var onBegan: ((UITouch) -> Void)?
         var onChanged: ((UITouch) -> Void)?
         var onEnded: ((UITouch) -> Void)?
