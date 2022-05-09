@@ -13,7 +13,7 @@ struct ExamApp: App {
 
     var body: some Scene {
         WindowGroup {
-            GearPositionsView(radius: 150)
+            PedalsView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

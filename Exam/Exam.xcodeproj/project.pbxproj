@@ -15,6 +15,8 @@
 		F418959727CFC878006147CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418959527CFC878006147CB /* MenuView.swift */; };
 		F42EF257281F167F00032E6F /* GasPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EF256281F167F00032E6F /* GasPedalSlider.swift */; };
 		F42EF258281F167F00032E6F /* GasPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EF256281F167F00032E6F /* GasPedalSlider.swift */; };
+		F44230B828267BC600BB6233 /* PedalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44230B728267BC600BB6233 /* PedalsView.swift */; };
+		F44230B928267BC600BB6233 /* PedalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44230B728267BC600BB6233 /* PedalsView.swift */; };
 		F47E695927F8C71E001921FF /* ForceDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6B18327DDDC6400352A07 /* ForceDragView.swift */; };
 		F485F4AD27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
 		F485F4AE27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
@@ -65,6 +67,7 @@
 		F40455F42804831D00D42F98 /* GearPositionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearPositionsView.swift; sourceTree = "<group>"; };
 		F418959527CFC878006147CB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		F42EF256281F167F00032E6F /* GasPedalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPedalSlider.swift; sourceTree = "<group>"; };
+		F44230B728267BC600BB6233 /* PedalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalsView.swift; sourceTree = "<group>"; };
 		F485F4AC27AFC26100F1E891 /* ExamPapers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPapers.swift; sourceTree = "<group>"; };
 		F485F4AF27AFEE6C00F1E891 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		F48A32D428107F4A00764CEC /* GearPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearPositionView.swift; sourceTree = "<group>"; };
@@ -124,9 +127,10 @@
 			children = (
 				F418959527CFC878006147CB /* MenuView.swift */,
 				F49DEDA727AC4F5A00D410E4 /* ContentView.swift */,
-				F4B6B18327DDDC6400352A07 /* ForceDragView.swift */,
+				F44230B728267BC600BB6233 /* PedalsView.swift */,
 				F42EF256281F167F00032E6F /* GasPedalSlider.swift */,
 				F4E651C327D6151D00EFDE93 /* BreakPedalSlider.swift */,
+				F4B6B18327DDDC6400352A07 /* ForceDragView.swift */,
 				F40455F42804831D00D42F98 /* GearPositionsView.swift */,
 				F48A32D428107F4A00764CEC /* GearPositionView.swift */,
 			);
@@ -386,6 +390,7 @@
 				F42EF257281F167F00032E6F /* GasPedalSlider.swift in Sources */,
 				F4B6B18427DDDC6400352A07 /* ForceDragView.swift in Sources */,
 				F49DEDD327AC4F5C00D410E4 /* ContentView.swift in Sources */,
+				F44230B828267BC600BB6233 /* PedalsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +411,7 @@
 				F42EF258281F167F00032E6F /* GasPedalSlider.swift in Sources */,
 				F47E695927F8C71E001921FF /* ForceDragView.swift in Sources */,
 				F49DEDD427AC4F5C00D410E4 /* ContentView.swift in Sources */,
+				F44230B928267BC600BB6233 /* PedalsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

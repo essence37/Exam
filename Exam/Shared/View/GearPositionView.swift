@@ -8,16 +8,18 @@
 import SwiftUI
 
 struct GearPositionView: View {
-
+    @Binding private var isGearSelectionAvailable: Bool
     private let gearPosition: GearPosition
 
-    init(gearPosition: GearPosition) {
+    init(gearPosition: GearPosition, isGearSelectionAvailable: Binding<Bool>) {
         self.gearPosition = gearPosition
+        self._isGearSelectionAvailable = isGearSelectionAvailable
     }
 
     var body: some View {
         Button {
             print("\(gearPosition.description) selected.")
+            isGearSelectionAvailable = false
         } label: {
             ZStack {
                 Circle()
@@ -32,8 +34,9 @@ struct GearPositionView: View {
 }
 
 struct GearPositionView_Previews: PreviewProvider {
+    @State static var isGearSelectionAvailable = true
     static var previews: some View {
-        GearPositionView(gearPosition: .drive)
+        GearPositionView(gearPosition: .drive, isGearSelectionAvailable: $isGearSelectionAvailable)
             .previewLayout(.sizeThatFits)
     }
 }

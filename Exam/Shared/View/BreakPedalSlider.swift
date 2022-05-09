@@ -8,23 +8,21 @@
 import SwiftUI
 
 struct BreakPedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : BinaryFloatingPoint {
-
     @State private var yOffset: CGFloat = .zero
+    @Binding private var isGearSelectionAvailable: Bool
     private let speedMultiplier: Double = 2
     private let bounds: ClosedRange<V>
 
-    init(in bounds: ClosedRange<V> = 0...1) {
+    init(in bounds: ClosedRange<V> = 0...1, isGearSelectionAvailable: Binding<Bool>) {
         self.bounds = bounds
+        self._isGearSelectionAvailable = isGearSelectionAvailable
     }
 
     var body: some View {
         ZStack(alignment: .bottom) {
-            ZStack(alignment: .top) {
-                Capsule()
-                    .fill(Color.blue)
+            Capsule()
+                .fill(Color.blue)
                 .frame(width: 100, height: 400)
-                GearPositionsView(radius: 150)
-            }
             Capsule()
                 .fill(Color.green)
                 .frame(width: 100, height: -yOffset + 100)
@@ -47,6 +45,10 @@ struct BreakPedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : Binar
                         } else if yOffset >= -300 && translationY < .zero {
                             yOffset = max(-300, yOffset + translationY)
                         }
+
+                        if touch.force > 3 {
+                            isGearSelectionAvailable = true
+                        }
                     }
                     .onEnded { _ in
                         withAnimation(.default.speed(speedMultiplier)) {
@@ -61,7 +63,8 @@ struct BreakPedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : Binar
 }
 
 struct PedalSlider_Previews: PreviewProvider {
+    @State static var isGearSelectionAvailable = true
     static var previews: some View {
-        BreakPedalSlider(in: 0...1)
+        BreakPedalSlider(in: 0...1, isGearSelectionAvailable: $isGearSelectionAvailable)
     }
 }
