@@ -11,13 +11,17 @@
 		F40455F32804812400D42F98 /* GearPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40455F12804812400D42F98 /* GearPosition.swift */; };
 		F40455F52804831D00D42F98 /* GearPositionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40455F42804831D00D42F98 /* GearPositionsView.swift */; };
 		F40455F62804831D00D42F98 /* GearPositionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40455F42804831D00D42F98 /* GearPositionsView.swift */; };
+		F414CE7C284265AA00DDBEC9 /* SteeringWheelSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414CE7B284265AA00DDBEC9 /* SteeringWheelSlider.swift */; };
+		F414CE7D284265AA00DDBEC9 /* SteeringWheelSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414CE7B284265AA00DDBEC9 /* SteeringWheelSlider.swift */; };
 		F418959627CFC878006147CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418959527CFC878006147CB /* MenuView.swift */; };
 		F418959727CFC878006147CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418959527CFC878006147CB /* MenuView.swift */; };
 		F42EF257281F167F00032E6F /* GasPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EF256281F167F00032E6F /* GasPedalSlider.swift */; };
 		F42EF258281F167F00032E6F /* GasPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EF256281F167F00032E6F /* GasPedalSlider.swift */; };
 		F44230B828267BC600BB6233 /* PedalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44230B728267BC600BB6233 /* PedalsView.swift */; };
 		F44230B928267BC600BB6233 /* PedalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44230B728267BC600BB6233 /* PedalsView.swift */; };
-		F47E695927F8C71E001921FF /* ForceDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6B18327DDDC6400352A07 /* ForceDragView.swift */; };
+		F44CBC4C28510DFA0083465E /* UITouch+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CBC4B28510DFA0083465E /* UITouch+Extension.swift */; };
+		F44CBC4D2851194A0083465E /* UITouch+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44CBC4B28510DFA0083465E /* UITouch+Extension.swift */; };
+		F47E695927F8C71E001921FF /* CustomDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6B18327DDDC6400352A07 /* CustomDragView.swift */; };
 		F485F4AD27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
 		F485F4AE27AFC26100F1E891 /* ExamPapers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AC27AFC26100F1E891 /* ExamPapers.swift */; };
 		F485F4B027AFEE6C00F1E891 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485F4AF27AFEE6C00F1E891 /* Question.swift */; };
@@ -38,7 +42,7 @@
 		F49DEDD627AC4F5C00D410E4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49DEDA827AC4F5A00D410E4 /* Persistence.swift */; };
 		F49DEDD727AC4F5C00D410E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49DEDA927AC4F5C00D410E4 /* Assets.xcassets */; };
 		F49DEDD827AC4F5C00D410E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49DEDA927AC4F5C00D410E4 /* Assets.xcassets */; };
-		F4B6B18427DDDC6400352A07 /* ForceDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6B18327DDDC6400352A07 /* ForceDragView.swift */; };
+		F4B6B18427DDDC6400352A07 /* CustomDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6B18327DDDC6400352A07 /* CustomDragView.swift */; };
 		F4E651C427D6151D00EFDE93 /* BreakPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E651C327D6151D00EFDE93 /* BreakPedalSlider.swift */; };
 		F4E651C527D6151D00EFDE93 /* BreakPedalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E651C327D6151D00EFDE93 /* BreakPedalSlider.swift */; };
 		F4EB142427AEF3A0005F04F4 /* ExamPapers.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EB142327AEF3A0005F04F4 /* ExamPapers.plist */; };
@@ -65,9 +69,11 @@
 /* Begin PBXFileReference section */
 		F40455F12804812400D42F98 /* GearPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearPosition.swift; sourceTree = "<group>"; };
 		F40455F42804831D00D42F98 /* GearPositionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearPositionsView.swift; sourceTree = "<group>"; };
+		F414CE7B284265AA00DDBEC9 /* SteeringWheelSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteeringWheelSlider.swift; sourceTree = "<group>"; };
 		F418959527CFC878006147CB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		F42EF256281F167F00032E6F /* GasPedalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPedalSlider.swift; sourceTree = "<group>"; };
 		F44230B728267BC600BB6233 /* PedalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalsView.swift; sourceTree = "<group>"; };
+		F44CBC4B28510DFA0083465E /* UITouch+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITouch+Extension.swift"; sourceTree = "<group>"; };
 		F485F4AC27AFC26100F1E891 /* ExamPapers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamPapers.swift; sourceTree = "<group>"; };
 		F485F4AF27AFEE6C00F1E891 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		F48A32D428107F4A00764CEC /* GearPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearPositionView.swift; sourceTree = "<group>"; };
@@ -85,7 +91,7 @@
 		F49DEDC727AC4F5C00D410E4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49DEDCB27AC4F5C00D410E4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F49DEDCD27AC4F5C00D410E4 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		F4B6B18327DDDC6400352A07 /* ForceDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceDragView.swift; sourceTree = "<group>"; };
+		F4B6B18327DDDC6400352A07 /* CustomDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDragView.swift; sourceTree = "<group>"; };
 		F4E651C327D6151D00EFDE93 /* BreakPedalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPedalSlider.swift; sourceTree = "<group>"; };
 		F4EB142327AEF3A0005F04F4 /* ExamPapers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExamPapers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,10 +133,11 @@
 			children = (
 				F418959527CFC878006147CB /* MenuView.swift */,
 				F49DEDA727AC4F5A00D410E4 /* ContentView.swift */,
+				F414CE7B284265AA00DDBEC9 /* SteeringWheelSlider.swift */,
 				F44230B728267BC600BB6233 /* PedalsView.swift */,
 				F42EF256281F167F00032E6F /* GasPedalSlider.swift */,
 				F4E651C327D6151D00EFDE93 /* BreakPedalSlider.swift */,
-				F4B6B18327DDDC6400352A07 /* ForceDragView.swift */,
+				F4B6B18327DDDC6400352A07 /* CustomDragView.swift */,
 				F40455F42804831D00D42F98 /* GearPositionsView.swift */,
 				F48A32D428107F4A00764CEC /* GearPositionView.swift */,
 			);
@@ -213,6 +220,7 @@
 		F4B6B18227DDDAFE00352A07 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F44CBC4B28510DFA0083465E /* UITouch+Extension.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -388,7 +396,9 @@
 				F4E651C427D6151D00EFDE93 /* BreakPedalSlider.swift in Sources */,
 				F49DEDCF27AC4F5C00D410E4 /* Exam.xcdatamodeld in Sources */,
 				F42EF257281F167F00032E6F /* GasPedalSlider.swift in Sources */,
-				F4B6B18427DDDC6400352A07 /* ForceDragView.swift in Sources */,
+				F44CBC4C28510DFA0083465E /* UITouch+Extension.swift in Sources */,
+				F414CE7C284265AA00DDBEC9 /* SteeringWheelSlider.swift in Sources */,
+				F4B6B18427DDDC6400352A07 /* CustomDragView.swift in Sources */,
 				F49DEDD327AC4F5C00D410E4 /* ContentView.swift in Sources */,
 				F44230B828267BC600BB6233 /* PedalsView.swift in Sources */,
 			);
@@ -409,7 +419,9 @@
 				F4E651C527D6151D00EFDE93 /* BreakPedalSlider.swift in Sources */,
 				F49DEDD027AC4F5C00D410E4 /* Exam.xcdatamodeld in Sources */,
 				F42EF258281F167F00032E6F /* GasPedalSlider.swift in Sources */,
-				F47E695927F8C71E001921FF /* ForceDragView.swift in Sources */,
+				F44CBC4D2851194A0083465E /* UITouch+Extension.swift in Sources */,
+				F414CE7D284265AA00DDBEC9 /* SteeringWheelSlider.swift in Sources */,
+				F47E695927F8C71E001921FF /* CustomDragView.swift in Sources */,
 				F49DEDD427AC4F5C00D410E4 /* ContentView.swift in Sources */,
 				F44230B928267BC600BB6233 /* PedalsView.swift in Sources */,
 			);

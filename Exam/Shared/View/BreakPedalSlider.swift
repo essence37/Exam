@@ -36,7 +36,7 @@ struct BreakPedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : Binar
                     )
                 Circle()
                     .strokeBorder(Color.black, lineWidth: 10)
-                ForceDragView()
+                CustomDragView()
                     .onChanged { touch in
                         let superview = touch.view?.superview
                         let translationY = touch.location(in: superview).y - touch.previousLocation(in: superview).y
