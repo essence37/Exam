@@ -11,13 +11,8 @@ struct GasPedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : BinaryF
     @State private var yOffset: CGFloat = .zero
     private let speedMultiplier: Double = 2
     private let bounds: ClosedRange<V>
-
-    init(in bounds: ClosedRange<V> = 0...1) {
-        self.bounds = bounds
-    }
-
-    var body: some View {
-        let dragGesture = DragGesture()
+    private var dragGesture: some Gesture {
+        DragGesture()
             .onChanged { gesture in
                 yOffset = gesture.translation.height
             }
@@ -26,7 +21,13 @@ struct GasPedalSlider<V>: View where V : BinaryFloatingPoint, V.Stride : BinaryF
                     yOffset = .zero
                 }
             }
+    }
 
+    init(in bounds: ClosedRange<V> = 0...1) {
+        self.bounds = bounds
+    }
+
+    var body: some View {
         ZStack(alignment: .bottom) {
             Capsule()
                 .fill(Color.blue)
